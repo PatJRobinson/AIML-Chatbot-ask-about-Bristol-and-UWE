@@ -5,12 +5,19 @@ These are the questions the chatbot is able to correctly answer:
 
  question[0] = "Where is Bristol"
         expAns[0] = "In the South-West of England"
+        
         question[1] = "Where is London"
+        
         expAns[1] = "Somewhere east of Bristol"
+        
         question[2] = "Where is Cardiff"
+        
         expAns[2] = "In Wales"
+        
         question[3] = "Where is UWE"
+        
         expAns[3] = "In north Bristol"
+        
         question[4] = "Where is  beauty"
         expAns[4] = "In the eye of the beholder"
         question[5] = "Whereabouts is Bristol"
@@ -74,8 +81,8 @@ These are the questions the chatbot is able to correctly answer:
         question[34] = "Bot please"
         expAns[34] = "I do not have an answer for that"
         question[35] = "Is Cardiff in Bristol"
+        
         expAns[35] = "I do not have an answer for that"
-           
         question[36] = "What is Bristol?"
         expAns[36] = "Bristol is a city."
         question[37] = "Where is it?"
