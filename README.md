@@ -3,23 +3,17 @@ A first year project implemented using Pandorabots. Uses 15 categories to correc
 
 These are the questions the chatbot is able to correctly answer:
 
- question[0] = "Where is Bristol"
+        question[0] = "Where is Bristol"
         expAns[0] = "In the South-West of England"
-        
         question[1] = "Where is London"
-        
         expAns[1] = "Somewhere east of Bristol"
-        
         question[2] = "Where is Cardiff"
-        
         expAns[2] = "In Wales"
-        
         question[3] = "Where is UWE"
-        
         expAns[3] = "In north Bristol"
-        
         question[4] = "Where is  beauty"
         expAns[4] = "In the eye of the beholder"
+
         question[5] = "Whereabouts is Bristol"
         expAns[5] = "In the South-West of England"
         question[6] = "Whereabouts is London"
@@ -28,6 +22,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[7] = "In Wales"
         question[8] = "Whereabouts is  beauty"
         expAns[8] = "In the eye of the beholder"
+
         question[9] = "Tell me where Bristol is"
         expAns[9] = "In the South-West of England"
         question[10] = "Tell me where Cardiff is"
@@ -36,6 +31,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[11] = "In north Bristol"
         question[12] = "Tell me where beauty is"
         expAns[12] = "In the eye of the beholder"
+
         question[13] = "Where is Bristol please?"
         expAns[13] = "In the South-West of England"
         question[14] = "Tell me where London is please"
@@ -44,6 +40,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[15] = "In north Bristol"
         question[16] = "Whereabouts is  beauty please?"
         expAns[16] = "In the eye of the beholder"
+
         question[17] = "Where is Bristol Bot"
         expAns[17] = "In the South-West of England"
         question[18] = "Whereabouts is Cardiff Bot"
@@ -52,6 +49,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[19] = "In north Bristol"
         question[20] = "Whereabouts is  beauty Bot?"
         expAns[20] = "In the eye of the beholder"
+
         question[21] = "Where is Bristol please Bot"
         expAns[21] = "In the South-West of England"
         question[22] = "Whereabouts is Cardiff please Bot"
@@ -62,6 +60,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[24] = "In north Bristol"
         question[25] = "Whereabouts is  beauty please Bot"
         expAns[25] = "In the eye of the beholder"
+
         question[26] = "Why not?"
         expAns[26] = "I do not have an answer for that"
         question[27] = "Where is Keynsham"
@@ -70,6 +69,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[28] = "Because I do not have a category to connect me to a mapping service"
         question[29] = "What is beauty?"
         expAns[29] = "A subjective judgment evoked by an emotional response"
+
         question[30] = "Please tell me where Cardiff is Bot"
         expAns[30] = "In Wales"
         question[31] = "Bot where is UWE please?"
@@ -81,8 +81,8 @@ These are the questions the chatbot is able to correctly answer:
         question[34] = "Bot please"
         expAns[34] = "I do not have an answer for that"
         question[35] = "Is Cardiff in Bristol"
-        
         expAns[35] = "I do not have an answer for that"
+
         question[36] = "What is Bristol?"
         expAns[36] = "Bristol is a city."
         question[37] = "Where is it?"
@@ -91,6 +91,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[38] = "London is a city."
         question[39] = "Where is it?"
         expAns[39] = "Somewhere east of Bristol"
+
         question[40] = "What is the population of Bristol?"
         expAns[40] = "The population of Bristol is over 450000"
         question[41] = "How many people live in Bristol"
@@ -103,7 +104,7 @@ These are the questions the chatbot is able to correctly answer:
         expAns[44] = "The population of London is about 8.7 million"
         question[45] = "What is UWE"
         expAns[45] = "I do not have an answer for that"
-        
+
         question[46] = "How many people live in Keynsham"
         expAns[46] = "I do not know what the population of Keynsham is"
         question[47] = "Why not?"
