@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    
+    <category>
+    <pattern> Where is * ^ </pattern>
+    <template>
+    <think> <set name = "BristolLondonCardiffBeautyUWEBotit"><star/></set></think>
+    <condition name = "BristolLondonCardiffBeautyUWEBotit">
+        <li value = "Bristol"> In the South-West of England</li>
+        <li value = "London"> Somewhere east of Bristol </li>
+        <li value = "Cardiff"> In Wales </li>
+        <li value = "Beauty"> In the eye of the beholder </li>
+        <li value = "UWE" > In north Bristol </li>
+        <li value = "Bot" > I do not have an answer for that </li>
+        <li value = "it" > In the South-West of England </li>
+        <li> I do not know where <star/> is </li>
+        </condition>
+    </template>
+    </category>
+
+<category> 
+<pattern>where is it</pattern>
+<that>Bristol is a city</that>
+<template> In the South-West of England</template>
+</category>
+
+<category> 
+<pattern>where is it</pattern>
+<that>London is a city</that>
+<template> Somewhere east of Bristol</template>
+</category>
+
+
+
+<category>
+<pattern>Whereabouts is * ^ </pattern>
+<template><srai> Where is <star/></srai>
+</template>
+</category>
+
+<category>
+<pattern> Tell me where * is ^ </pattern>
+<template><srai> Where is <star/>  </srai>
+</template>
+</category>
+ 
+ 
+<category>
+    <pattern> What is * </pattern>
+     <template>
+    <think> <set name = "Things"><star/></set></think>
+    <condition name = "Things">
+        <li value = "Bristol"> Bristol is a city.</li>
+        <li value = "London"> London is a city.</li>
+        <li value = "UWE" > I do not have an answer for that </li>
+        <li value = "The population of bristol"> The population of bristol is over 450000</li>
+        <li value = "The population of Cardiff"> The population of Cardiff is over 360000 </li>
+        <li value = "The population of London"> The population of London is about 8.7 million </li>
+        <li value = "Beauty"> A subjective judgment evoked by an emotional response </li>
+        <li> I do not know what <star/> is </li>
+        </condition>
+    </template>
+    </category>
+    
+
+<category>
+<pattern> How many people live in * </pattern>
+<template><srai> What is the population of <star/>  </srai>
+</template>
+</category>
+
+<category> 
+<pattern>Why not</pattern> 
+<that> I do not know what the population of Keynsham is </that> 
+<template>
+Because it is too hard to count the residents of Keynsham
+</template> 
+</category>
+
+<category> 
+<pattern>Why not</pattern> 
+<that> I do not know what the population of Space is </that> 
+<template>
+Because it is too hard to count the residents of Space
+</template> 
+</category>
+
+
+<category> 
+<pattern>Why not</pattern> 
+<that> I do not know where keynsham is </that> 
+<template> Because I do not have a category to connect me to a mapping service </template> 
+</category>
+
+<category> 
+<pattern> Please tell me where Cardiff is Bot </pattern>
+<template> In Wales </template>
+</category>
+
+<category> 
+<pattern> Bot where is UWE please </pattern>
+<template> In north Bristol </template>
+</category>
+
+<category> 
+<pattern> Please Please tell me where london is </pattern>
+<template> Somewhere east of Bristol </template>
+</category>
+
+<category>
+    <pattern> * </pattern>
+    <template> I do not have an answer for that </template>
+</category>
+
+
+</aiml>
